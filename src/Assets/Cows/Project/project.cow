@@ -1,0 +1,8 @@
+<project>
+  <manifest name="common.xml"/>
+  <shortcuts>
+    <nodes name="shortcuts">
+      <node name="\" type="folder"/>
+    </nodes>
+  </shortcuts>
+</project>

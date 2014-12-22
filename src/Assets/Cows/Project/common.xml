@@ -1,0 +1,220 @@
+<manifest>
+  <folder name="root">
+    <folder name="system">
+      <resource name="XLogicObjectXMap" type=".as" path="Common\\Containers\\XLogicObjectXMap" src="XLogicObjectXMap.as" dst="XLogicObjectXMap.swf">
+        <classX name="XLogicObjectXMap"/>
+      </resource>
+      <resource name="ErrorImages" type=".fla" path="Common\\Images\\Error" src="ErrorImages.fla" dst="ErrorImages.swf">
+        <classX name="undefinedClass"/>
+      </resource>
+      <resource name="ManipulatorRings" type=".fla" path="Common\\Tiki\\UI\\ManipulatorRings" src="ManipulatorRings.fla" dst="ManipulatorRings.swf">
+        <classX name="Pickup_Ring"/>
+        <classX name="Move_Ring"/>
+        <classX name="Resize_Ring"/>
+        <classX name="Rotate_Ring"/>
+      </resource>
+      <resource name="Cursors" type=".fla" path="Common\\Images\\Cursors" src="cursors.fla" dst="cursors.swf">
+        <classX name="CursorClass"/>
+      </resource>
+      <resource name="TikiXMapEditorIcons" type=".fla" path="Common\\Tiki\\UI\\TikiXMapEditorIcons" src="TikiXMapEditorIcons.fla" dst="TikiXMapEditorIcons.swf">
+        <classX name="Pointer_Button"/>
+        <classX name="Hand_Button"/>
+        <classX name="Zoom_Button"/>
+        <classX name="Cross_Button"/>
+        <classX name="DocumentSave_Button"/>
+        <classX name="Tiles_Button"/>
+        <classX name="Test_Button"/>
+      </resource>
+      <resource name="ItemGrabber" type=".fla" path="Common\\Tiki\\UI\\ItemGrabber" src="ItemGrabber.fla" dst="ItemGrabber.swf">
+        <classX name="ItemGrabber"/>
+      </resource>
+      <resource name="RotatingXLogicObject" type=".as" path="Common\\Test\\RotatingXLogicObject" src="RotatingXLogicObject.as" dst="RotatingXLogicObject.swf">
+        <classX name="RotatingXLogicObject"/>
+      </resource>
+      <resource name="RotatingXLogicObject2" type=".as" path="Common\\Test\\RotatingXLogicObject2" src="RotatingXLogicObject2.as" dst="RotatingXLogicObject2.swf">
+        <classX name="RotatingXLogicObject2"/>
+      </resource>
+      <resource name="CX" type=".fla" path="Common\\CX" src="CX.fla" dst="CX.swf">
+        <classX name="CXClass"/>
+        <classX name="CX_SOLID"/>
+        <classX name="CX_SOFT"/>
+        <classX name="CX_JUMP_THRU"/>
+        <classX name="CX_UL45"/>
+        <classX name="CX_UR45"/>
+        <classX name="CX_LL45"/>
+        <classX name="CX_LR45"/>
+        <classX name="CX_UL225"/>
+        <classX name="CX_UR225"/>
+        <classX name="CX_LL225"/>
+        <classX name="CX_LR225"/>
+        <classX name="CX_UL675"/>
+        <classX name="CX_UR675"/>
+        <classX name="CX_LL675"/>
+        <classX name="CX_LR675"/>
+        <classX name="CX_SOFTLF"/>
+        <classX name="CX_SOFTRT"/>
+        <classX name="CX_SOFTUP"/>
+        <classX name="CX_SOFTDN"/>
+        <classX name="CX_SOLIDX001"/>
+        <classX name="CX_DEATH"/>
+        <classX name="CX_ICE"/>
+      </resource>
+    </folder>
+    <folder name="Sprites">
+      <folder name="Mickey">
+        <resource name="@MickeyCursor" type=".pmp" embed="false" path="common" src="59812017-8AE3-BD15-9FE1-8901E69A56E4-MickeyCursor.pmp" dst="59812017-8AE3-BD15-9FE1-8901E69A56E4-MickeyCursor.pmp" pmp_width="128" originX="14" originY="13" width="99" totalWidth="297" height="101" regX="-48" regY="-50"/>
+        <resource name="MickeyCursor" type=".fla" embed="false" path="common" src="8FACA776-FFAD-9F3B-B41B-03A288C62E3B-MickeyCursor.fla" dst="8FACA776-FFAD-9F3B-B41B-03A288C62E3B-MickeyCursor.swf">
+          <classX name="MickeyCursor" regX="0" regY="0" width="32" height="32"/>
+        </resource>
+      </folder>
+      <folder name="UI">
+        <folder name="Ads">
+          <resource name="@adBox" type=".pmp" embed="false" path="common" src="25DB04DD-0856-3950-C23C-3F0A58F9AD83-adBox.pmp" dst="25DB04DD-0856-3950-C23C-3F0A58F9AD83-adBox.pmp" pmp_width="512" originX="111" originY="130" width="300" totalWidth="300" height="250" regX="-150" regY="-125"/>
+          <resource name="adBox" type=".fla" embed="false" path="common" src="C57256D1-2C22-3D97-1443-69DADBEC85E9-adBox.fla" dst="C57256D1-2C22-3D97-1443-69DADBEC85E9-adBox.swf">
+            <classX name="adBox" regX="0" regY="0" width="32" height="32"/>
+          </resource>
+        </folder>
+        <folder name="Pause"/>
+        <folder name="Buttons">
+          <resource name="@BGMMuteButton" type=".pmp" embed="false" path="common" src="6307D351-2A0F-E3D4-6A5F-EE767E51788E-BGMMuteButton.pmp" dst="6307D351-2A0F-E3D4-6A5F-EE767E51788E-BGMMuteButton.pmp" pmp_width="256" originX="120" originY="115" width="43" totalWidth="86" height="43" regX="-21" regY="-21"/>
+          <resource name="@SFXMuteButton" type=".pmp" embed="false" path="common" src="E4F1E166-567F-84DE-E9DA-6AC8F9F902C4-SFXMuteButton.pmp" dst="E4F1E166-567F-84DE-E9DA-6AC8F9F902C4-SFXMuteButton.pmp" pmp_width="256" originX="120" originY="115" width="43" totalWidth="86" height="43" regX="-21" regY="-21"/>
+          <resource name="BGMMuteButton" type=".fla" embed="false" path="common" src="81275A77-9AD1-B3CE-E840-794FF4BED593-BGMMuteButton.fla" dst="81275A77-9AD1-B3CE-E840-794FF4BED593-BGMMuteButton.swf">
+            <classX name="BGMMuteButton" regX="0" regY="0" width="32" height="32"/>
+          </resource>
+          <resource name="SFXMuteButton" type=".fla" embed="false" path="common" src="BD48CCBA-E541-0716-22AD-169810F54F5B-SFXMuteButton.fla" dst="BD48CCBA-E541-0716-22AD-169810F54F5B-SFXMuteButton.swf">
+            <classX name="SFXMuteButton" regX="0" regY="0" width="32" height="32"/>
+          </resource>
+          <resource name="@FacebookShareButton" type=".pmp" embed="false" path="common" src="1E369A08-2E5B-EDF6-EB25-D3C4D55E3D4C-FacebookShareButton.pmp" dst="1E369A08-2E5B-EDF6-EB25-D3C4D55E3D4C-FacebookShareButton.pmp" pmp_width="256" originX="86" originY="99" width="102" totalWidth="306" height="40" regX="-51" regY="-20"/>
+          <resource name="FacebookShareButton" type=".fla" embed="false" path="common" src="C2477A94-1E5C-B246-ADF3-7F7F497C98E3-FacebookShareButton.fla" dst="C2477A94-1E5C-B246-ADF3-7F7F497C98E3-FacebookShareButton.swf">
+            <classX name="FacebookShareButton" regX="0" regY="0" width="32" height="32"/>
+          </resource>
+          <resource name="@FacebookLikeButton" type=".pmp" embed="false" path="common" src="A939DF1F-837E-8C6E-3413-A98EB10BBD02-FacebookLikeButton.pmp" dst="A939DF1F-837E-8C6E-3413-A98EB10BBD02-FacebookLikeButton.pmp" pmp_width="256" originX="86" originY="99" width="102" totalWidth="306" height="40" regX="-51" regY="-20"/>
+          <resource name="FacebookLikeButton" type=".fla" embed="false" path="common" src="7521E89E-830E-CAA7-69DE-CD4DE182D8AC-FacebookLikeButton.fla" dst="7521E89E-830E-CAA7-69DE-CD4DE182D8AC-FacebookLikeButton.swf">
+            <classX name="FacebookLikeButton" regX="0" regY="0" width="32" height="32"/>
+          </resource>
+          <resource name="@CloseAdButton" type=".pmp" embed="false" path="common" src="72C6C494-35D9-7CB7-AEB6-DCDBF3EA8C59-CloseAdButton.pmp" dst="72C6C494-35D9-7CB7-AEB6-DCDBF3EA8C59-CloseAdButton.pmp" pmp_width="256" originX="75" originY="73" width="141" totalWidth="423" height="36" regX="-70" regY="-18"/>
+          <resource name="CloseAdButton" type=".fla" embed="false" path="common" src="6735B566-44CF-55D5-ED87-5629657A49E4-CloseAdButton.fla" dst="6735B566-44CF-55D5-ED87-5629657A49E4-CloseAdButton.swf">
+            <classX name="CloseAdButton" regX="0" regY="0" width="32" height="32"/>
+          </resource>
+        </folder>
+        <folder name="BGS">
+          <resource name="@BlackBG" type=".pmp" embed="false" path="common" src="85B0E45A-017D-6A80-7C37-68E0F008E639-BlackBG.pmp" dst="85B0E45A-017D-6A80-7C37-68E0F008E639-BlackBG.pmp" pmp_width="1024" originX="148" originY="183" width="770" totalWidth="770" height="550" regX="0" regY="0"/>
+          <resource name="BlackBG" type=".fla" embed="false" path="common" src="2A5374E5-1B83-9AA0-A8D4-022446062CA3-BlackBG.fla" dst="2A5374E5-1B83-9AA0-A8D4-022446062CA3-BlackBG.swf">
+            <classX name="BlackBG" regX="0" regY="0" width="32" height="32"/>
+          </resource>
+        </folder>
+        <folder name="Fonts">
+          <resource name="#SmallHirestFont2" type=".pmp" embed="false" path="common" src="6CBFC5FB-6A12-E143-71CE-E6BADF4E3050-SmallHirestFont2.pmp" dst="6CBFC5FB-6A12-E143-71CE-E6BADF4E3050-SmallHirestFont2.pmp" tileXML="PGZsYT4NICAgIDxtb3ZpZUNsaXAgY2xhc3NOYW1lPSJTbWFsbEhpcmVzdEZvbnQyIiB4PSI3MTAiIHk9IjEzMTkiIHdpZHRoPSIyMiIgaGVpZ2h0PSIyMyIgZHg9IjMiIGR5PSIwIiByZWdYPSIwIiByZWdZPSIwIiBjb2xzPSI2NCIgcm93cz0iMSIvPg08L2ZsYT4="/>
+          <resource name="SmallHirestFont2" type=".fla" embed="false" path="common" src="CB243E2B-FBBD-9C02-39F7-502E664547EA-SmallHirestFont2.fla" dst="CB243E2B-FBBD-9C02-39F7-502E664547EA-SmallHirestFont2.swf">
+            <classX name="SmallHirestFont2" regX="0" regY="0" width="32" height="32"/>
+          </resource>
+          <resource name="#SmallHiresFont" type=".pmp" embed="false" path="common" src="F8B45108-CC40-68B5-D02D-A4AF26A4D963-SmallHiresFont.pmp" dst="F8B45108-CC40-68B5-D02D-A4AF26A4D963-SmallHiresFont.pmp" tileXML="PGZsYT4NICAgIDxtb3ZpZUNsaXAgY2xhc3NOYW1lPSJTbWFsbEhpcmVzRm9udCIgeD0iNzEwIiB5PSIxMzE5IiB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIGR4PSIzIiBkeT0iMCIgcmVnWD0iMCIgcmVnWT0iMCIgY29scz0iNjQiIHJvd3M9IjEiLz4NPC9mbGE+"/>
+          <resource name="SmallHiresFont" type=".fla" embed="false" path="common" src="F3CF6AE0-10E5-17E7-E542-AFF59EB4B159-SmallHiresFont.fla" dst="F3CF6AE0-10E5-17E7-E542-AFF59EB4B159-SmallHiresFont.swf">
+            <classX name="SmallHiresFont" regX="0" regY="0" width="32" height="32"/>
+          </resource>
+          <resource name="#SnakeFont" type=".pmp" embed="false" path="common" src="EC279D21-4A9E-75C4-8342-4FD0E1CC2221-SnakeFont.pmp" dst="EC279D21-4A9E-75C4-8342-4FD0E1CC2221-SnakeFont.pmp" tileXML="PGZsYT4NICAgIDxtb3ZpZUNsaXAgY2xhc3NOYW1lPSJTbmFrZUZvbnQiIHg9IjMzIiB5PSIxMzk0IiB3aWR0aD0iNzgiIGhlaWdodD0iNjQiIGR4PSI0IiBkeT0iNyIgcmVnWD0iMCIgcmVnWT0iMCIgY29scz0iMTYiIHJvd3M9IjQiLz4NPC9mbGE+"/>
+          <resource name="SnakeFont" type=".fla" embed="false" path="common" src="E44F0D28-5A24-2F1D-1423-FAB5D75D6F34-SnakeFont.fla" dst="E44F0D28-5A24-2F1D-1423-FAB5D75D6F34-SnakeFont.swf">
+            <classX name="SnakeFont" regX="0" regY="0" width="32" height="32"/>
+          </resource>
+        </folder>
+      </folder>
+    </folder>
+    <folder name="Items">
+      <folder name="Level">
+        <resource name="SmallText_Item" type=".item" embed="false" path="" src="" dst="">
+          <XMapItem logicClassName="$SmallText" hasLogic="true" imageClassName="SmallText:SmallText">
+            <params/>
+          </XMapItem>
+        </resource>
+        <resource name="MickeyText_Item" type=".item" embed="false" path="" src="" dst="">
+          <XMapItem logicClassName="$MickeyText" hasLogic="true" imageClassName="MickeyText:MickeyText">
+            <params/>
+          </XMapItem>
+        </resource>
+        <resource name="BigText_Item" type=".item" embed="false" path="" src="" dst="">
+          <XMapItem logicClassName="$BigText" hasLogic="true" imageClassName="BigText:BigText">
+            <params/>
+          </XMapItem>
+        </resource>
+        <resource name="HudText_Item" type=".item" embed="false" path="" src="" dst="">
+          <XMapItem logicClassName="$HudText" hasLogic="true" imageClassName="HudText:HudText">
+            <params/>
+          </XMapItem>
+        </resource>
+        <resource name="Horz_Gate_Item" type=".item" embed="false" path="" src="" dst="">
+          <XMapItem logicClassName="$Horz_Gate" hasLogic="true" imageClassName="Horz_Gate:Horz_Gate">
+            <params/>
+          </XMapItem>
+        </resource>
+        <resource name="Vert_Gate_Item" type=".item" embed="false" path="" src="" dst="">
+          <XMapItem logicClassName="$Vert_Gate" hasLogic="true" imageClassName="Vert_Gate:Vert_Gate">
+            <params/>
+          </XMapItem>
+        </resource>
+        <resource name="Horz_Door_Item" type=".item" embed="false" path="" src="" dst="">
+          <XMapItem logicClassName="$Horz_Door" hasLogic="true" imageClassName="Horz_Gate:Horz_Gate">
+            <params/>
+          </XMapItem>
+        </resource>
+        <resource name="Vert_Door_Item" type=".item" embed="false" path="" src="" dst="">
+          <XMapItem logicClassName="$Vert_Door" hasLogic="true" imageClassName="Vert_Gate:Vert_Gate">
+            <params/>
+          </XMapItem>
+        </resource>
+        <resource name="Zone_Item" type=".item" embed="false" path="" src="" dst="">
+          <XMapItem logicClassName="$Zone" hasLogic="true" imageClassName="Zone_Icon:Zone_Icon">
+            <params/>
+          </XMapItem>
+        </resource>
+        <resource name="StarterRing_Item" type=".item" embed="false" path="" src="" dst="">
+          <XMapItem logicClassName="$StarterRing" hasLogic="true" imageClassName="StarterRing:StarterRing">
+            <params/>
+          </XMapItem>
+        </resource>
+        <folder name="Icons">
+          <resource name="@Zone_Icon" type=".pmp" embed="false" path="common" src="897B865D-8DC0-F006-765C-9DC3488AD487-Zone_Icon.pmp" dst="897B865D-8DC0-F006-765C-9DC3488AD487-Zone_Icon.pmp" pmp_width="128" originX="0" originY="0" width="128" totalWidth="128" height="128" regX="0" regY="0"/>
+          <resource name="Zone_Icon" type=".fla" embed="false" path="common" src="DA77F7D7-643E-CF43-7FD6-39982570804C-Zone_Icon.fla" dst="DA77F7D7-643E-CF43-7FD6-39982570804C-Zone_Icon.swf">
+            <classX name="Zone_Icon" regX="0" regY="0" width="32" height="32"/>
+          </resource>
+          <resource name="@SmallText" type=".pmp" embed="false" path="common" src="B744D7A1-C4B6-465E-EB43-0A8ED125EC49-SmallText.pmp" dst="B744D7A1-C4B6-465E-EB43-0A8ED125EC49-SmallText.pmp" pmp_width="128" originX="60" originY="49" width="15" totalWidth="15" height="24" regX="0" regY="0"/>
+          <resource name="SmallText" type=".fla" embed="false" path="common" src="489750A3-9048-95B5-E0B8-3749BA14FEE3-SmallText.fla" dst="489750A3-9048-95B5-E0B8-3749BA14FEE3-SmallText.swf">
+            <classX name="SmallText" regX="0" regY="0" width="32" height="32"/>
+          </resource>
+          <resource name="@BigText" type=".pmp" embed="false" path="common" src="469E95DD-A65E-1611-B709-763BE70136FC-BigText.pmp" dst="469E95DD-A65E-1611-B709-763BE70136FC-BigText.pmp" pmp_width="128" originX="31" originY="15" width="64" totalWidth="64" height="96" regX="0" regY="0"/>
+          <resource name="BigText" type=".fla" embed="false" path="common" src="77E2576C-844F-0080-2BDB-9FF2CCF459EE-BigText.fla" dst="77E2576C-844F-0080-2BDB-9FF2CCF459EE-BigText.swf">
+            <classX name="BigText" regX="0" regY="0" width="32" height="32"/>
+          </resource>
+          <resource name="@HudText" type=".pmp" embed="false" path="common" src="E4B4391F-FE6A-2D0E-41AB-BD817A4174ED-HudText.pmp" dst="E4B4391F-FE6A-2D0E-41AB-BD817A4174ED-HudText.pmp" pmp_width="128" originX="59" originY="49" width="16" totalWidth="16" height="24" regX="0" regY="0"/>
+          <resource name="HudText" type=".fla" embed="false" path="common" src="C7BE627C-5682-7941-0FB7-5DD03D5FD4B0-HudText.fla" dst="C7BE627C-5682-7941-0FB7-5DD03D5FD4B0-HudText.swf">
+            <classX name="HudText" regX="0" regY="0" width="32" height="32"/>
+          </resource>
+          <resource name="@StarterRing" type=".pmp" embed="false" path="common" src="BCAFA479-F0F9-4FB1-84F0-B485A2C00518-StarterRing.pmp" dst="BCAFA479-F0F9-4FB1-84F0-B485A2C00518-StarterRing.pmp" pmp_width="128" originX="32" originY="29" width="65" totalWidth="65" height="65" regX="-32" regY="-32"/>
+          <resource name="StarterRing" type=".fla" embed="false" path="common" src="21046189-998B-2649-B68D-A0FAF4AA6729-StarterRing.fla" dst="21046189-998B-2649-B68D-A0FAF4AA6729-StarterRing.swf">
+            <classX name="StarterRing" regX="0" regY="0" width="32" height="32"/>
+          </resource>
+          <resource name="@MickeyText" type=".pmp" embed="false" path="common" src="8B5FF2B0-4B0E-55B8-491C-2235E0BA1845-MickeyText.pmp" dst="8B5FF2B0-4B0E-55B8-491C-2235E0BA1845-MickeyText.pmp" pmp_width="128" originX="48" originY="46" width="31" totalWidth="31" height="33" regX="-16" regY="-17"/>
+          <resource name="MickeyText" type=".fla" embed="false" path="common" src="F5CC9778-E32E-3CA4-60F2-6EB6B8FF299C-MickeyText.fla" dst="F5CC9778-E32E-3CA4-60F2-6EB6B8FF299C-MickeyText.swf">
+            <classX name="MickeyText" regX="0" regY="0" width="32" height="32"/>
+          </resource>
+          <resource name="@Horz_Gate" type=".pmp" embed="false" path="common" src="55234EB1-E4FB-B417-622C-D8E7E2475AD4-Horz_Gate.pmp" dst="55234EB1-E4FB-B417-622C-D8E7E2475AD4-Horz_Gate.pmp" pmp_width="128" originX="0" originY="0" width="128" totalWidth="2176" height="128" regX="0" regY="0"/>
+          <resource name="Horz_Gate" type=".fla" embed="false" path="common" src="0B146F41-7B79-D7B3-30B2-6FF52D1E169A-Horz_Gate.fla" dst="0B146F41-7B79-D7B3-30B2-6FF52D1E169A-Horz_Gate.swf">
+            <classX name="Horz_Gate" regX="0" regY="0" width="32" height="32"/>
+          </resource>
+          <resource name="@Vert_Gate" type=".pmp" embed="false" path="common" src="482305D3-3C5E-E7B8-5A27-5BF96F18C97B-Vert_Gate.pmp" dst="482305D3-3C5E-E7B8-5A27-5BF96F18C97B-Vert_Gate.pmp" pmp_width="256" originX="0" originY="0" width="64" totalWidth="1600" height="192" regX="0" regY="0"/>
+          <resource name="Vert_Gate" type=".fla" embed="false" path="common" src="4D0DB7CF-080D-9B3A-BB4B-8DB4CBA24CDC-Vert_Gate.fla" dst="4D0DB7CF-080D-9B3A-BB4B-8DB4CBA24CDC-Vert_Gate.swf">
+            <classX name="Vert_Gate" regX="0" regY="0" width="32" height="32"/>
+          </resource>
+        </folder>
+      </folder>
+    </folder>
+    <folder name="Levels">
+      <folder name="Tiles"/>
+      <folder name="Maps"/>
+      <folder name="Gyms"/>
+      <folder name="FBG"/>
+    </folder>
+    <folder name="Sketches">
+      <resource name="#Sketches001" type=".pmp" embed="false" path="common" src="E0DE5A60-737F-82F6-F2A3-0CAC37CDB0F2-Sketches001.pmp" dst="E0DE5A60-737F-82F6-F2A3-0CAC37CDB0F2-Sketches001.pmp"/>
+    </folder>
+  </folder>
+</manifest>
