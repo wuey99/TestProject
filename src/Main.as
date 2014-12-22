@@ -28,7 +28,7 @@ package
 			
 			addEventListener (Event.ADDED_TO_STAGE, 
 				function ():void {	
-					trace (": (test project) added to stage: ");
+					trace (": added to stage: ");
 					
 					var __game:Game = new Game ();
 					addChild (__game);
