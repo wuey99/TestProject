@@ -4,6 +4,8 @@
 //------------------------------------------------------------------------------------------
 package
 {
+	import Objects.Mickey.*;
+	
 	import GX;
 	import GX.External.CPMStar.*;
 	import GX.External.FGL.*;
@@ -50,8 +52,40 @@ package
 			trace (": G: setup: ");
 			
 			G.setup (this, m_XApp);
+			
+			addTask ([
+				XTask.WAIT, 0x0100,
+
+				function ():void {
+					initCursor ();
+				},
+				
+				XTask.RETN,
+			]);	
 		}			
 
+		//------------------------------------------------------------------------------------------
+		public override function initCursor ():void {
+			var __x:Number;
+			var __y:Number;
+			
+			__x = 0;
+			__y = 0;
+			
+			m_mickeyCursorObject = xxx.getXLogicManager ().initXLogicObject (
+				// parent
+				null,
+				// logicObject
+				new MickeyCursorX () as XLogicObject,
+				// item, layer, depth
+				null, PLAYFIELD_LAYER, 999999999,
+				// x, y, z
+				__x, __y, 0,
+				// scale, rotation
+				1.0, 0
+			) as MickeyCursorX;
+		}
+		
 	//------------------------------------------------------------------------------------------
 	}
 	

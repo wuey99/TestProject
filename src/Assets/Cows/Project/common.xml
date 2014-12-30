@@ -66,6 +66,10 @@
         <resource name="MickeyCursor" type=".fla" embed="false" path="common" src="8FACA776-FFAD-9F3B-B41B-03A288C62E3B-MickeyCursor.fla" dst="8FACA776-FFAD-9F3B-B41B-03A288C62E3B-MickeyCursor.swf">
           <classX name="MickeyCursor" regX="0" regY="0" width="32" height="32"/>
         </resource>
+        <resource name="@MickeyCursorArrow" type=".pmp" embed="false" path="common" src="4DCE18B5-ADC5-94B1-36BB-A77E7758D38B-MickeyCursorArrow.pmp" dst="4DCE18B5-ADC5-94B1-36BB-A77E7758D38B-MickeyCursorArrow.pmp" pmp_width="128" originX="14" originY="13" width="99" totalWidth="792" height="101" regX="-48" regY="-50"/>
+        <resource name="MickeyCursorArrow" type=".fla" embed="false" path="common" src="21D595C5-B7B0-8265-364E-2C308311E828-MickeyCursorArrow.fla" dst="21D595C5-B7B0-8265-364E-2C308311E828-MickeyCursorArrow.swf">
+          <classX name="MickeyCursorArrow" regX="0" regY="0" width="32" height="32"/>
+        </resource>
       </folder>
       <folder name="UI">
         <folder name="Ads">

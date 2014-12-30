@@ -10,6 +10,10 @@
             <resource name="MickeyCursor" type=".fla" embed="false" path="$Embedded" src="8FACA776-FFAD-9F3B-B41B-03A288C62E3B-MickeyCursor.fla" dst="8FACA776-FFAD-9F3B-B41B-03A288C62E3B-MickeyCursor.swf" oldPath="common">
               <classX name="MickeyCursor" regX="0" regY="0" width="32" height="32"/>
             </resource>
+            <resource name="@MickeyCursorArrow" type=".pmp" embed="false" path="common" src="4DCE18B5-ADC5-94B1-36BB-A77E7758D38B-MickeyCursorArrow.pmp" dst="4DCE18B5-ADC5-94B1-36BB-A77E7758D38B-MickeyCursorArrow.pmp" pmp_width="128" originX="14" originY="13" width="99" totalWidth="792" height="101" regX="-48" regY="-50" oldPath="common"/>
+            <resource name="MickeyCursorArrow" type=".fla" embed="false" path="$Embedded" src="21D595C5-B7B0-8265-364E-2C308311E828-MickeyCursorArrow.fla" dst="21D595C5-B7B0-8265-364E-2C308311E828-MickeyCursorArrow.swf" oldPath="common">
+              <classX name="MickeyCursorArrow" regX="0" regY="0" width="32" height="32"/>
+            </resource>
           </folder>
           <folder name="UI" oldPath="">
             <folder name="Ads" oldPath="">
@@ -18,11 +22,10 @@
                 <classX name="adBox" regX="0" regY="0" width="32" height="32"/>
               </resource>
             </folder>
-            <folder name="Pause" oldPath="">
-              <resource name="@SFXMuteButton" type=".pmp" embed="false" path="common" src="E4F1E166-567F-84DE-E9DA-6AC8F9F902C4-SFXMuteButton.pmp" dst="E4F1E166-567F-84DE-E9DA-6AC8F9F902C4-SFXMuteButton.pmp" pmp_width="256" originX="120" originY="115" width="43" totalWidth="86" height="43" regX="-21" regY="-21" oldPath="common"/>
-            </folder>
+            <folder name="Pause" oldPath=""/>
             <folder name="Buttons" oldPath="">
               <resource name="@BGMMuteButton" type=".pmp" embed="false" path="common" src="6307D351-2A0F-E3D4-6A5F-EE767E51788E-BGMMuteButton.pmp" dst="6307D351-2A0F-E3D4-6A5F-EE767E51788E-BGMMuteButton.pmp" pmp_width="256" originX="120" originY="115" width="43" totalWidth="86" height="43" regX="-21" regY="-21" oldPath="common"/>
+              <resource name="@SFXMuteButton" type=".pmp" embed="false" path="common" src="E4F1E166-567F-84DE-E9DA-6AC8F9F902C4-SFXMuteButton.pmp" dst="E4F1E166-567F-84DE-E9DA-6AC8F9F902C4-SFXMuteButton.pmp" pmp_width="256" originX="120" originY="115" width="43" totalWidth="86" height="43" regX="-21" regY="-21" oldPath="common"/>
               <resource name="BGMMuteButton" type=".fla" embed="false" path="$Embedded" src="81275A77-9AD1-B3CE-E840-794FF4BED593-BGMMuteButton.fla" dst="81275A77-9AD1-B3CE-E840-794FF4BED593-BGMMuteButton.swf" oldPath="common">
                 <classX name="BGMMuteButton" regX="0" regY="0" width="32" height="32"/>
               </resource>
@@ -169,6 +172,8 @@
 //------------------------------------------------------------------------------------------
 	[Embed(source="..\\Assets\\Cows\\Project\\common\\8FACA776-FFAD-9F3B-B41B-03A288C62E3B-MickeyCursor.swf", mimeType="application/octet-stream")]
 	private static const $Embedded_common_MickeyCursor_swf:Class;
+	[Embed(source="..\\Assets\\Cows\\Project\\common\\21D595C5-B7B0-8265-364E-2C308311E828-MickeyCursorArrow.swf", mimeType="application/octet-stream")]
+	private static const $Embedded_common_MickeyCursorArrow_swf:Class;
 	[Embed(source="..\\Assets\\Cows\\Project\\common\\C57256D1-2C22-3D97-1443-69DADBEC85E9-adBox.swf", mimeType="application/octet-stream")]
 	private static const $Embedded_common_adBox_swf:Class;
 	[Embed(source="..\\Assets\\Cows\\Project\\common\\81275A77-9AD1-B3CE-E840-794FF4BED593-BGMMuteButton.swf", mimeType="application/octet-stream")]
@@ -211,6 +216,9 @@
 	private function addEmbeddedAssets ():void {
 		m_XApp.getProjectManager ().addEmbeddedResource (
 			"$Embedded\\8FACA776-FFAD-9F3B-B41B-03A288C62E3B-MickeyCursor.swf" , $Embedded_common_MickeyCursor_swf
+		);
+		m_XApp.getProjectManager ().addEmbeddedResource (
+			"$Embedded\\21D595C5-B7B0-8265-364E-2C308311E828-MickeyCursorArrow.swf" , $Embedded_common_MickeyCursorArrow_swf
 		);
 		m_XApp.getProjectManager ().addEmbeddedResource (
 			"$Embedded\\C57256D1-2C22-3D97-1443-69DADBEC85E9-adBox.swf" , $Embedded_common_adBox_swf
