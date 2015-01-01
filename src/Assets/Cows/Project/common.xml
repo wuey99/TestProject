@@ -121,6 +121,13 @@
             <classX name="SnakeFont" regX="0" regY="0" width="32" height="32"/>
           </resource>
         </folder>
+        <folder name="Kablooey">
+          <resource name="@PoweredByKablooey" type=".pmp" embed="false" path="common" src="485620CD-9BCE-28FD-CE66-BE57085D8D6F-PoweredByKablooey.pmp" dst="485620CD-9BCE-28FD-CE66-BE57085D8D6F-PoweredByKablooey.pmp" pmp_width="512" originX="104" originY="195" width="317" totalWidth="317" height="59" regX="-156" regY="-30"/>
+          <resource name="PoweredByKablooey" type=".fla" embed="false" path="common" src="DF83D754-3189-3A83-DF0A-23D86996E3BC-PoweredByKablooey.fla" dst="DF83D754-3189-3A83-DF0A-23D86996E3BC-PoweredByKablooey.swf">
+            <classX name="PoweredByKablooey" regX="0" regY="0" width="32" height="32"/>
+            <classX name="PoweredByKablooey" regX="0" regY="0" width="32" height="32"/>
+          </resource>
+        </folder>
       </folder>
     </folder>
     <folder name="Items">

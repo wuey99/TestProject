@@ -65,6 +65,13 @@
                 <classX name="SnakeFont" regX="0" regY="0" width="32" height="32"/>
               </resource>
             </folder>
+            <folder name="Kablooey" oldPath="">
+              <resource name="@PoweredByKablooey" type=".pmp" embed="false" path="common" src="485620CD-9BCE-28FD-CE66-BE57085D8D6F-PoweredByKablooey.pmp" dst="485620CD-9BCE-28FD-CE66-BE57085D8D6F-PoweredByKablooey.pmp" pmp_width="512" originX="104" originY="195" width="317" totalWidth="317" height="59" regX="-156" regY="-30" oldPath="common"/>
+              <resource name="PoweredByKablooey" type=".fla" embed="false" path="$Embedded" src="DF83D754-3189-3A83-DF0A-23D86996E3BC-PoweredByKablooey.fla" dst="DF83D754-3189-3A83-DF0A-23D86996E3BC-PoweredByKablooey.swf" oldPath="common">
+                <classX name="PoweredByKablooey" regX="0" regY="0" width="32" height="32"/>
+                <classX name="PoweredByKablooey" regX="0" regY="0" width="32" height="32"/>
+              </resource>
+            </folder>
           </folder>
         </folder>
         <folder name="Items" oldPath="">
@@ -194,6 +201,8 @@
 	private static const $Embedded_common_SmallHiresFont_swf:Class;
 	[Embed(source="..\\Assets\\Cows\\Project\\common\\E44F0D28-5A24-2F1D-1423-FAB5D75D6F34-SnakeFont.swf", mimeType="application/octet-stream")]
 	private static const $Embedded_common_SnakeFont_swf:Class;
+	[Embed(source="..\\Assets\\Cows\\Project\\common\\DF83D754-3189-3A83-DF0A-23D86996E3BC-PoweredByKablooey.swf", mimeType="application/octet-stream")]
+	private static const $Embedded_common_PoweredByKablooey_swf:Class;
 	[Embed(source="..\\Assets\\Cows\\Project\\common\\DA77F7D7-643E-CF43-7FD6-39982570804C-Zone_Icon.swf", mimeType="application/octet-stream")]
 	private static const $Embedded_common_Zone_Icon_swf:Class;
 	[Embed(source="..\\Assets\\Cows\\Project\\common\\489750A3-9048-95B5-E0B8-3749BA14FEE3-SmallText.swf", mimeType="application/octet-stream")]
@@ -249,6 +258,9 @@
 		);
 		m_XApp.getProjectManager ().addEmbeddedResource (
 			"$Embedded\\E44F0D28-5A24-2F1D-1423-FAB5D75D6F34-SnakeFont.swf" , $Embedded_common_SnakeFont_swf
+		);
+		m_XApp.getProjectManager ().addEmbeddedResource (
+			"$Embedded\\DF83D754-3189-3A83-DF0A-23D86996E3BC-PoweredByKablooey.swf" , $Embedded_common_PoweredByKablooey_swf
 		);
 		m_XApp.getProjectManager ().addEmbeddedResource (
 			"$Embedded\\DA77F7D7-643E-CF43-7FD6-39982570804C-Zone_Icon.swf" , $Embedded_common_Zone_Icon_swf

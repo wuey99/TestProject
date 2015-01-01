@@ -5,6 +5,7 @@
 package
 {
 	import Objects.Mickey.*;
+	import Objects.Kablooey.*;
 	
 	import GX;
 	import GX.External.CPMStar.*;
@@ -57,6 +58,7 @@ package
 				XTask.WAIT, 0x0100,
 
 				function ():void {
+					initPoweredByKablooey ();
 					initCursor ();
 				},
 				
@@ -84,6 +86,22 @@ package
 				// scale, rotation
 				1.0, 0
 			) as MickeyCursorX;
+		}
+		
+		//------------------------------------------------------------------------------------------
+		public function initPoweredByKablooey ():void {
+			xxx.getXLogicManager ().initXLogicObject (
+				// parent
+				null,
+				// logicObject
+				new PoweredByX () as XLogicObject,
+				// item, layer, depth
+				null, PLAYFIELD_LAYER, 999999999-1,
+				// x, y, z
+				800/2, 600 - 52, 0,
+				// scale, rotation
+				1.0, 0
+			) as PoweredByX;
 		}
 		
 	//------------------------------------------------------------------------------------------
