@@ -98,7 +98,7 @@ package
 				// item, layer, depth
 				null, PLAYFIELD_LAYER, 999999999-1,
 				// x, y, z
-				800/2, 600 - 52, 0,
+				800/2, 600 - 150, 0,
 				// scale, rotation
 				1.0, 0
 			) as PoweredByX;
