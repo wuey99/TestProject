@@ -128,8 +128,8 @@
           </resource>
         </folder>
         <folder name="Misc">
-          <resource name="@KilroyWasHere" type=".pmp" embed="false" path="common" src="470716C9-EEEB-CC27-1D20-969E9EEE44DF-KilroyWasHere.pmp" dst="470716C9-EEEB-CC27-1D20-969E9EEE44DF-KilroyWasHere.pmp" pmp_width="512" originX="159" originY="126" width="211" totalWidth="211" height="183" regX="-105" regY="-118"/>
-          <resource name="KilroyWasHere" type=".fla" embed="false" path="common" src="8C23D4A5-C62C-5575-E147-22F5C476323A-KilroyWasHere.fla" dst="8C23D4A5-C62C-5575-E147-22F5C476323A-KilroyWasHere.swf">
+          <resource name="@KilroyWasHere" type=".pmp" embed="false" path="common" src="E26D21CE-FCE7-3DE6-8D1E-75D52344EA2B-KilroyWasHere.pmp" dst="E26D21CE-FCE7-3DE6-8D1E-75D52344EA2B-KilroyWasHere.pmp" pmp_width="512" originX="126" originY="130" width="276" totalWidth="276" height="210" regX="-141" regY="-133"/>
+          <resource name="KilroyWasHere" type=".fla" embed="false" path="common" src="5B51B143-BE0C-A29D-0350-1F13FB69E188-KilroyWasHere.fla" dst="5B51B143-BE0C-A29D-0350-1F13FB69E188-KilroyWasHere.swf">
             <classX name="KilroyWasHere" regX="0" regY="0" width="32" height="32"/>
           </resource>
         </folder>
