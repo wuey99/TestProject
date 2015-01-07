@@ -28,7 +28,7 @@ package Objects.Kablooey {
 		public var script:XTask;
 	
 //------------------------------------------------------------------------------------------
-		public function MickeyCursorX () {
+		public function PoweredByX () {
 		}
 	
 //------------------------------------------------------------------------------------------

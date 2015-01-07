@@ -6,6 +6,7 @@ package
 {
 	import Objects.Mickey.*;
 	import Objects.Kablooey.*;
+	import Objects.Misc.*;
 	
 	import GX;
 	import GX.External.CPMStar.*;
@@ -55,10 +56,11 @@ package
 			G.setup (this, m_XApp);
 			
 			addTask ([
-				XTask.WAIT, 0x0100,
+				XTask.WAIT, 0x0400,
 
 				function ():void {
 					initPoweredByKablooey ();
+					initKilroyWasHere ();
 					initCursor ();
 				},
 				
@@ -98,10 +100,26 @@ package
 				// item, layer, depth
 				null, PLAYFIELD_LAYER, 999999999-1,
 				// x, y, z
-				800/2, 600 - 150, 0,
+				800/2, 600 - 100, 0,
 				// scale, rotation
 				1.0, 0
 			) as PoweredByX;
+		}
+		
+		//------------------------------------------------------------------------------------------
+		public function initKilroyWasHere ():void {
+			xxx.getXLogicManager ().initXLogicObject (
+				// parent
+				null,
+				// logicObject
+				new KilroyWasHereX () as XLogicObject,
+				// item, layer, depth
+				null, PLAYFIELD_LAYER, 999999999-1,
+				// x, y, z
+				800/2, 600/2 - 100, 0,
+				// scale, rotation
+				1.0, 0
+			) as KilroyWasHereX;
 		}
 		
 	//------------------------------------------------------------------------------------------

@@ -16,7 +16,7 @@
     </define>
     <define append="true">
       <name>CONFIG::timeStamp</name>
-      <value>'1/1/2015'</value>
+      <value>'1/6/2015'</value>
     </define>
     <define append="true">
       <name>CONFIG::air</name>
@@ -32,15 +32,16 @@
     </define>
     <verbose-stacktraces>true</verbose-stacktraces>
     <source-path append="true">
-      <path-element>C:\Users\kablooey_too\Documents\TestProject\src</path-element>
+      <path-element>C:\Users\kablooey3\Document\TestProject\src</path-element>
+      <path-element>C:\Users\kablooey3\git\GX</path-element>
       <path-element>C:\Program Files (x86)\FlashDevelop\Library\AS3\classes</path-element>
     </source-path>
     <library-path append="true">
-      <path-element>C:\Users\kablooey_too\Documents\TestProject\lib\GX.swc</path-element>
+      <path-element>C:\Users\kablooey3\Document\TestProject\lib\GX.swc</path-element>
     </library-path>
   </compiler>
   <file-specs>
-    <path-element>C:\Users\kablooey_too\Documents\TestProject\src\Main.as</path-element>
+    <path-element>C:\Users\kablooey3\Document\TestProject\src\Main.as</path-element>
   </file-specs>
   <default-background-color>#808080</default-background-color>
   <default-frame-rate>30</default-frame-rate>

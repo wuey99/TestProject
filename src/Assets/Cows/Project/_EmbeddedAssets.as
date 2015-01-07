@@ -69,7 +69,12 @@
               <resource name="@PoweredByKablooey" type=".pmp" embed="false" path="common" src="485620CD-9BCE-28FD-CE66-BE57085D8D6F-PoweredByKablooey.pmp" dst="485620CD-9BCE-28FD-CE66-BE57085D8D6F-PoweredByKablooey.pmp" pmp_width="512" originX="104" originY="195" width="317" totalWidth="317" height="59" regX="-156" regY="-30" oldPath="common"/>
               <resource name="PoweredByKablooey" type=".fla" embed="false" path="$Embedded" src="DF83D754-3189-3A83-DF0A-23D86996E3BC-PoweredByKablooey.fla" dst="DF83D754-3189-3A83-DF0A-23D86996E3BC-PoweredByKablooey.swf" oldPath="common">
                 <classX name="PoweredByKablooey" regX="0" regY="0" width="32" height="32"/>
-                <classX name="PoweredByKablooey" regX="0" regY="0" width="32" height="32"/>
+              </resource>
+            </folder>
+            <folder name="Misc" oldPath="">
+              <resource name="@KilroyWasHere" type=".pmp" embed="false" path="common" src="470716C9-EEEB-CC27-1D20-969E9EEE44DF-KilroyWasHere.pmp" dst="470716C9-EEEB-CC27-1D20-969E9EEE44DF-KilroyWasHere.pmp" pmp_width="512" originX="159" originY="126" width="211" totalWidth="211" height="183" regX="-105" regY="-118" oldPath="common"/>
+              <resource name="KilroyWasHere" type=".fla" embed="false" path="$Embedded" src="8C23D4A5-C62C-5575-E147-22F5C476323A-KilroyWasHere.fla" dst="8C23D4A5-C62C-5575-E147-22F5C476323A-KilroyWasHere.swf" oldPath="common">
+                <classX name="KilroyWasHere" regX="0" regY="0" width="32" height="32"/>
               </resource>
             </folder>
           </folder>
@@ -203,6 +208,8 @@
 	private static const $Embedded_common_SnakeFont_swf:Class;
 	[Embed(source="..\\Assets\\Cows\\Project\\common\\DF83D754-3189-3A83-DF0A-23D86996E3BC-PoweredByKablooey.swf", mimeType="application/octet-stream")]
 	private static const $Embedded_common_PoweredByKablooey_swf:Class;
+	[Embed(source="..\\Assets\\Cows\\Project\\common\\8C23D4A5-C62C-5575-E147-22F5C476323A-KilroyWasHere.swf", mimeType="application/octet-stream")]
+	private static const $Embedded_common_KilroyWasHere_swf:Class;
 	[Embed(source="..\\Assets\\Cows\\Project\\common\\DA77F7D7-643E-CF43-7FD6-39982570804C-Zone_Icon.swf", mimeType="application/octet-stream")]
 	private static const $Embedded_common_Zone_Icon_swf:Class;
 	[Embed(source="..\\Assets\\Cows\\Project\\common\\489750A3-9048-95B5-E0B8-3749BA14FEE3-SmallText.swf", mimeType="application/octet-stream")]
@@ -261,6 +268,9 @@
 		);
 		m_XApp.getProjectManager ().addEmbeddedResource (
 			"$Embedded\\DF83D754-3189-3A83-DF0A-23D86996E3BC-PoweredByKablooey.swf" , $Embedded_common_PoweredByKablooey_swf
+		);
+		m_XApp.getProjectManager ().addEmbeddedResource (
+			"$Embedded\\8C23D4A5-C62C-5575-E147-22F5C476323A-KilroyWasHere.swf" , $Embedded_common_KilroyWasHere_swf
 		);
 		m_XApp.getProjectManager ().addEmbeddedResource (
 			"$Embedded\\DA77F7D7-643E-CF43-7FD6-39982570804C-Zone_Icon.swf" , $Embedded_common_Zone_Icon_swf

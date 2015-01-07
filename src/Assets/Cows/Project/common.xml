@@ -125,7 +125,12 @@
           <resource name="@PoweredByKablooey" type=".pmp" embed="false" path="common" src="485620CD-9BCE-28FD-CE66-BE57085D8D6F-PoweredByKablooey.pmp" dst="485620CD-9BCE-28FD-CE66-BE57085D8D6F-PoweredByKablooey.pmp" pmp_width="512" originX="104" originY="195" width="317" totalWidth="317" height="59" regX="-156" regY="-30"/>
           <resource name="PoweredByKablooey" type=".fla" embed="false" path="common" src="DF83D754-3189-3A83-DF0A-23D86996E3BC-PoweredByKablooey.fla" dst="DF83D754-3189-3A83-DF0A-23D86996E3BC-PoweredByKablooey.swf">
             <classX name="PoweredByKablooey" regX="0" regY="0" width="32" height="32"/>
-            <classX name="PoweredByKablooey" regX="0" regY="0" width="32" height="32"/>
+          </resource>
+        </folder>
+        <folder name="Misc">
+          <resource name="@KilroyWasHere" type=".pmp" embed="false" path="common" src="470716C9-EEEB-CC27-1D20-969E9EEE44DF-KilroyWasHere.pmp" dst="470716C9-EEEB-CC27-1D20-969E9EEE44DF-KilroyWasHere.pmp" pmp_width="512" originX="159" originY="126" width="211" totalWidth="211" height="183" regX="-105" regY="-118"/>
+          <resource name="KilroyWasHere" type=".fla" embed="false" path="common" src="8C23D4A5-C62C-5575-E147-22F5C476323A-KilroyWasHere.fla" dst="8C23D4A5-C62C-5575-E147-22F5C476323A-KilroyWasHere.swf">
+            <classX name="KilroyWasHere" regX="0" regY="0" width="32" height="32"/>
           </resource>
         </folder>
       </folder>
